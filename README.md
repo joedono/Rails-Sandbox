@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/basic_login
+https://www.railstutorial.org/book/advanced_login
