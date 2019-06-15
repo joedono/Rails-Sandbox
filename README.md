@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/advanced_login#sec-remember_me_checkbox
+https://www.railstutorial.org/book/updating_and_deleting_users#sec-requiring_logged_in_users
