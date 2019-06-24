@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/updating_and_deleting_users#sec-pagination
+https://www.railstutorial.org/book/updating_and_deleting_users#sec-revisiting_strong_parameters
