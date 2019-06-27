@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/password_reset
+https://www.railstutorial.org/book/user_microposts
