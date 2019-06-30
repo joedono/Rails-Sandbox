@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/user_microposts#sec-manipulating_microposts
+https://www.railstutorial.org/book/following_users
