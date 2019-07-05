@@ -1,18 +1,18 @@
 User.create!(
-  name: "Example User",
-  email: "example@railstutorial.org",
-  password: "foobar",
-  password_confirmation: "foobar",
+  name: "Joe Zusi",
+  email: "joe.zusi@ticketnetwork.com",
+  password: "password123",
+  password_confirmation: "password123",
   admin: true,
   activated: true,
   activated_at: Time.zone.now
 )
 
 User.create!(
-  name: "Joe Zusi",
-  email: "joe.zusi@ticketnetwork.com",
-  password: "password123",
-  password_confirmation: "password123",
+  name: "Example User",
+  email: "example@railstutorial.org",
+  password: "foobar",
+  password_confirmation: "foobar",
   admin: true,
   activated: true,
   activated_at: Time.zone.now
@@ -32,8 +32,17 @@ User.create!(
   )
 end
 
+# Microposts
 users = User.order(:created_at).take(6)
 50.times do
   content = Faker::Lorem.sentence(5)
   users.each { |user| user.microposts.create!(content: content) }
 end
+
+# Followers
+users = User.all
+user = users.first
+following = users[2..50]
+followers = users[3..40]
+following.each { |followed| user.follow(followed) }
+followers.each { |follower| follower.follow(user) }
