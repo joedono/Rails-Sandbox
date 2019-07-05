@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-https://www.railstutorial.org/book/following_users#sec-a_web_interface_for_following_and_followers
+https://www.railstutorial.org/book/following_users#sec-a_working_follow_button_the_standard_way
